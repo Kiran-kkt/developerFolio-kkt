@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Software Engineer 🚀 having an experience of building IoT systems with Python, C++, TypeScript, React and some other cool libraries and frameworks."
   ),
-  resumeLink:
-    "", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -126,14 +125,14 @@ const educationInfo = {
       schoolName: "Technical University of Munich",
       logo: require("./assets/images/TUMLogo.png"),
       subHeader: "Master of Science in Communications Engineering",
-      duration: "October 2016 - August 2019",
+      duration: "October 2016 - August 2019"
     },
     {
       schoolName: "Vellore Institute of Technology",
       logo: require("./assets/images/VITLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "July 2012 - May 2016",
-      desc: "Ranked top 10% in the program.",
+      desc: "Ranked top 10% in the program."
     }
   ]
 };
@@ -230,7 +229,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -291,7 +290,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -315,7 +314,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections

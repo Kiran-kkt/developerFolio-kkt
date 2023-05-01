@@ -113,7 +113,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -161,7 +161,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
